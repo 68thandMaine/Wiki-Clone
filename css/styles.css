@@ -7,11 +7,67 @@
   background-image:linear-gradient(#000 50%, #f6f6f6 100%);
 }
 .panels, ul {
-  color: red;
+  color: blue;
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  padding-inline-start: 40px;
+  padding-inline-start: 0px;
+}
+
+#col-1 {
+  border: 1px solid;
+  width:10em;
+  float: left;
+}
+
+.headbar {
+  clear: both;
+      position: relative;
+      box-sizing: border-box;
+      width: 100%;
+      margin: 1.2em 0 6px;
+      min-width: 47em;
+      border: 1px solid;
+      background-color: #F9F9F9;
+      color: #000;
+      white-space: nowrap;
+}
+
+#col-2 {
+  border: 1px solid;
+  width:70%;
+  float: left;
+}
+
+.rl {
+  color: blue;
+  text-align: justify;
+  text-align-last: right;
+}
+
+#left-1 {
+  background-color: #F5FFFA;
+}
+
+#blue {
+  background-color: #CFDFF1
+}
+
+#left-2 {
+  background-color: #F5FAFF;
+}
+
+#purp {
+  background-color: #DDCFF1;
+}
+
+#purpp {
+  background-color: #FAF5FF;
+}
+
+.left {
+  width:50%;
+  float:left;
 }
